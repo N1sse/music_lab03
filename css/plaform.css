@@ -2,6 +2,7 @@ section{
     margin-top: 60px;
 }
 
+/*-----------info-----------*/
 .info_plat{
 padding-left: 40px;
 padding-right: 40px;
@@ -14,6 +15,8 @@ padding-right: 40px;
 .plataforma{
     text-align: center;
 }
+
+/*-----------card--------*/
 .card_wrap{
     padding-bottom: 60px;
     display: grid;
