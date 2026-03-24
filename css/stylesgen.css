@@ -5,6 +5,9 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
+section{
+    margin-top: 40xpx;
+}
 
 /* Fondo general */
 body {
@@ -12,27 +15,9 @@ body {
     color: #080808;
 }
 
-header {
-    background-color: #111;
-    padding: 15px 0;
-}
-
-nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    gap: 40px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #ccc;
-    font-weight: 500;
-    transition: 0.3s;
-}
-
-nav a:hover {
-    color: #fff;
+/*espacio antes de footer*/
+main{
+    margin-bottom: 60px;
 }
 
 /* TITULO */
@@ -43,12 +28,22 @@ h1 {
 }
 
 /* LISTA DE GENEROS */
-ul {
+.lista_genres{
     width: 80%;
-    margin: auto;
+    justify-content: center;
+    padding-left: 170px;
 }
 
-ul > li {
+.contenido_lista{
+    list-style: none;
+}
+
+p{
+    color: #fff;
+
+}
+
+.lista_genres > .contenido_lista {
     background-color: #2a2a2a;
     margin: 15px 0;
     padding: 15px;
@@ -56,12 +51,12 @@ ul > li {
     transition: 0.3s;
 }
 
-ul > li:hover {
+.lista_genres > .contenido_list:hover { 
     background-color: #333;
 }
 
 /* SUBLISTAS */
-ul ul {
+.lista_genres, .datos_lista{ 
     margin-top: 10px;
     margin-left: 20px;
 }
@@ -77,36 +72,3 @@ strong {
     color: #fff;
 }
 
-/* FOOTER */
-.mini-footer {
-    background-color: #111;
-    text-align: center;
-    padding: 30px 10px;
-    margin-top: 40px;
-}
-
-.mini-footer h3 {
-    margin-bottom: 15px;
-}
-
-/* ICONOS */
-.footer-icons {
-    margin: 15px 0;
-}
-
-.footer-icons a {
-    color: #ccc;
-    font-size: 24px;
-    margin: 0 10px;
-    transition: 0.3s;
-}
-
-.footer-icons a:hover {
-    color: #fff;
-}
-
-
-.mini-footer p {
-    font-size: 14px;
-    color: #aaa;
-}
