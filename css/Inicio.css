@@ -1,5 +1,15 @@
+
+/*----banner----*/
+.b_content{
+  object-fit: cover;
+  overflow: hidden;
+  height: 420px;
+  align-content: center;
+}
+
+/*----todo contenido----*/
 .desing {
-  margin-top: 100px;
+  margin-top: 20px;
 }
 
 .design {
@@ -8,10 +18,11 @@
 
 .design {
   max-width: 800px;
-  margin: 0 auto; /* centra */
+  margin: 0 auto;
   padding: 20px;
 }
 
+/*----contenido texto----*/
 h1 {
   font-size: 2.5rem;
   margin-bottom: 15px;
